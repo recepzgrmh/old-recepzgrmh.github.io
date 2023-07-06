@@ -1,0 +1,69 @@
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 88px;
+}
+
+button{
+    background-color: transparent;
+    border: 0px solid;
+    font-size: 20px;
+}
+
+a{
+    color: black;
+}
+
+.first {
+    margin-bottom: 50px;
+}
+
+.about-me {
+    margin-bottom: 50px;
+}
+
+.about-me  img{
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.left-alignment{
+    margin-left: 10px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.row-span{
+    grid-row: span 2;
+    
+}
+
+.selected-works{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.lead{
+  text-transform: capitalize;
+}
+
+address{
+    margin-bottom: 0px;
+}
