@@ -1,10 +1,18 @@
+body{
+    background-color: #9DB2BF;
+}
+
 .header{
     display: flex;
     flex-flow: row wrap;
     gap: 30px;
     padding: 20px;
-    margin-bottom: 50px;
-    margin-left: 88px;
+    background-color: #27374D;
+    padding-left: 100px;
+}
+
+.header button {
+    color: rgba(255, 255, 255, 0.822);
 }
 
 button{
@@ -13,50 +21,78 @@ button{
     font-size: 20px;
 }
 
-a{
-    color: black;
-}
+
 
 .first {
-    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 100px;
+    background-color: #9DB2BF;
+}
+
+.first h1{
+    display: flex;
+    height: 100%;
+    align-items: end;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 .about-me {
-    margin-bottom: 50px;
+    
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    padding: 100px;
+    background-color: #DDE6ED;
+    
 }
 
-.about-me  img{
+.about-me > .row-span >  img{
     height: 300px;
     border-radius: 50%;
     border: 1px solid;
+    margin-left: 100px;
+}
+
+.row-span{
+    grid-row: span 2;
+    display: flex;
+    justify-content: center;
 }
 
 .left-alignment{
-    margin-left: 10px;
+    margin-left: 100px;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .experience{
     display: grid;
-    grid-template-columns: 1fr;
-    margin-left: 100px;
-    margin-bottom: 50px;
+    grid-template-columns: 30% 1fr;
     text-transform: capitalize;
     font-size: 18px;
     gap: 30px;
+    background-color: #9DB2BF;
+    padding: 100px;
+    padding-bottom: 50px;
 }
 
+.experience-span{
+    grid-column: span 2;
+}
 
 
 .selected-works{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 50px;
-    margin-left: 100px;
+    padding: 100px;
+    background-color: #DDE6ED;
 }
 
 .selected-works > .column-span{
@@ -70,8 +106,28 @@ h2{
 
 address{
     margin-bottom: 0px;
+    
 }
 
 h3{
-    font-size: 30px;
+    font-size: 35px;
+}
+
+p,li{
+    font-size: 20px;
+}
+
+
+.contact-me{
+    background-color: #9DB2BF;
+}
+
+footer{
+    background-color: #27374D;
+    color: white;
+    padding: 40px;
+}
+
+a {
+    color: inherit;
 }
