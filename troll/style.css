@@ -30,3 +30,8 @@ main{
     height: 200px;
     border: 1px solid;
 }
+
+.change{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+        opacity: 0.5;
+}
