@@ -16,6 +16,7 @@ function buttonAnimation(pressed){
     }
 }
 
+
 for(var i = 0 ; i < document.querySelectorAll(".display-grid").length ; i++){
     document.querySelectorAll(".display-grid")[i].addEventListener("click",Event);
 }
